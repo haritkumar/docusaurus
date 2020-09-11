@@ -16,7 +16,7 @@ class ApiComponent extends React.Component {
   mySubmitHandler(e){ 
     e.preventDefault();
     const postid = e.target.elements.postid.value;
-    const apiUrl = 'https://jsonplaceholder.typicode.com/posts/'+postid+'/comments';
+    const apiUrl = `https://jsonplaceholder.typicode.com/posts/${postid}/comments`;
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => {
