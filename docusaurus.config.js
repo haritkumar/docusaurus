@@ -33,7 +33,7 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/haritkumar/docusaurus.git',
           label: 'GitHub',
           position: 'right',
         },
@@ -105,8 +105,7 @@ module.exports = {
         src: 'img/oss_logo.png',
         href: 'https://opensource.facebook.com',
       },
-      // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <b>Doc Space</b>.`,
     },
   },
   presets: [
