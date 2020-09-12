@@ -39,7 +39,7 @@ class ChartComponent extends React.Component {
     return (
       <div>
       <h3>Doughnut Chart</h3>
-      <Doughnut data={this.state.data1} height="100px" />
+      <Doughnut data={this.state.data1} height={100} />
       <br/><br/>
       <h3>Bar Chart</h3>
       <Bar

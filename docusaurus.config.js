@@ -10,11 +10,11 @@
 module.exports = {
   title: 'Doc Space',
   tagline: 'This is my doc space',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://haritkumar.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'haritkumar', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     colorMode: {
