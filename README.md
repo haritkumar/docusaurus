@@ -13,12 +13,14 @@ npm -v
 npm install -g yarn
 yarn -v
 ```
+
+```html
 https://www.npmjs.com/package/react-chartjs-2
 npm install --save react-chartjs-2 chart.js
 https://jsonplaceholder.typicode.com/
 
 GIT_USER=haritkumar yarn deploy
-
+```
 
 ### Triggering deployment with GitHub Actions
 
@@ -33,3 +35,7 @@ ssh-keygen -t rsa -b 4096 -C "haritkumar@hotmail.com"
 mkdir -p .github/workflows
 touch .github/workflows/documentation.yml
 ```
+
+- Now when a new pull request arrives towards your repository in branch documentation it will automatically ensure that Docusaurus build is successful.
+- When pull request is merged to documentation branch or someone pushes to documentation branch directly it will be built and deployed to gh-pages branch.
+- After this step, your updated documentation will be available on the GitHub pages.
