@@ -26,10 +26,12 @@ GIT_USER=haritkumar yarn deploy
 
 ```sh
 #Generate a new SSH key.
-ssh-keygen -t rsa -b 4096 -C "haritkumar@hotmail.com"
-#/Users/haritkumar/Desktop/id_rsa
+mkdir .ssh
+sudo ssh-keygen -t rsa -b 4096 -C "haritkumar@hotmail.com"
+#/Users/haritkumar/Downloads/docusaurus/facebook/.ssh/id_rsa
 #harit
-#id_rsa.pub to Deploy Keys of repo
+sudo cat .ssh/id_rsa
+#id_rsa.pub to Deploy Keys of repo with title id_rsa
 #Check the box for Allow write access
 #copy id_rsa and paste a GitHub secret with name GH_PAGES_DEPLOY
 mkdir -p .github/workflows
